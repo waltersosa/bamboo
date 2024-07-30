@@ -1,4 +1,4 @@
-// App.js
+// src/App.js
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Encabezado from './componentes/Encabezado';
