@@ -1,0 +1,44 @@
+.pie-de-pagina {
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de difuminado */
+    height: 50px; /* Altura del pie de página */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1; /* Asegura que esté por encima de la imagen de fondo */
+  }
+  
+  .iconos-redes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .icono-red {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    color: white; /* Color del texto */
+  }
+  
+  .icono-red.facebook {
+    color: #3b5998; /* Color de Facebook */
+  }
+  
+  .icono-red.instagram {
+    color: #E1306C; /* Color de Instagram */
+  }
+  
+  .icono-red.whatsapp {
+    color: #25D366; /* Color de WhatsApp */
+  }
+  
+  .icono-red svg {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,31 @@
+/* Menu.css */
+
+.dropdown-menu {
+    display: none; /* Oculto por defecto */
+    position: absolute; /* Posición absoluta para flotar */
+    top: 60px; /* Ajusta según la altura de tu encabezado */
+    right: 0; /* Alineado a la derecha */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto flotante */
+    z-index: 1000; /* Asegúrate de que se superpone a otros elementos */
+    width: 200px; /* Ancho del menú */
+    border-radius: 5px; /* Bordes redondeados */
+    overflow: hidden; /* Para manejar el contenido */
+  }
+  
+  .dropdown-menu.show {
+    display: block; /* Mostrar el menú cuando se activa */
+  }
+  
+  .dropdown-menu a {
+    display: block; /* Cada enlace ocupa toda la línea */
+    padding: 10px 20px; /* Espaciado interno */
+    color: #333; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Suavizado del cambio de color de fondo */
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el ratón */
+  }
+  

@@ -1,0 +1,112 @@
+.quienes-somos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh; /* Para asegurar que cubra toda la altura de la ventana */
+    background-image: url('C:/BoxBanboo-WebSite/boxbamboo/public/fondo.png'); /* Actualiza esta ruta con la ubicación de tu imagen */
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  .quienes-somos-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de difuminado */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px 20px;
+  }
+  
+  .quienes-somos-image {
+    flex: 1;
+    max-width: 300px; /* Limita el tamaño máximo de la imagen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quienes-somos-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .quienes-somos-text {
+    flex: 2;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .quienes-somos-text h2 {
+    color: #256143; /* Color verde */
+    margin-bottom: 10px;
+  }
+  
+  .quienes-somos-text p, .quienes-somos-text ul {
+    color: #fff; /* Color blanco para el texto */
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .quienes-somos-text ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quienes-somos-text ul li {
+    margin-bottom: 5px;
+  }
+  
+  .pie-de-pagina {
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de difuminado */
+    height: 50px; /* Altura del pie de página */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1; /* Asegura que esté por encima de la imagen de fondo */
+  }
+  
+  .iconos-redes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .icono-red {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    color: white; /* Color del texto */
+  }
+  
+  .icono-red.facebook {
+    color: #3b5998; /* Color de Facebook */
+  }
+  
+  .icono-red.instagram {
+    color: #E1306C; /* Color de Instagram */
+  }
+  
+  .icono-red.whatsapp {
+    color: #25D366; /* Color de WhatsApp */
+  }
+  
+  .icono-red svg {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
