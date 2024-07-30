@@ -5,7 +5,7 @@
     justify-content: center;
     position: relative;
     min-height: 100vh;
-    background-image: url('C:\BoxBanboo-WebSite\boxbamboo\public\fondo.png'); /* Actualiza la ruta de la imagen según corresponda */
+    background-image: url('/fondo.png');
     background-size: cover;
     background-position: center;
     overflow: hidden;
